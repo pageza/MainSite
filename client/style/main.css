@@ -1,3 +1,20 @@
 body {
-  background-image: url('blue-star-background-1455551589EXl.jpg') ;
+  background-image: url('editor.jpeg') ;
+  background-size: cover;
+  color: #ff841a;
+}
+#mainPic {
+  height: 250px;
+  padding-left: 40%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.mybg {
+  background-color: rgba(26,89,255,.6);
+  border-radius: 15px;
+  padding: 10px;
+}
+.mybg h1 p {
+  #6bff3d
 }
