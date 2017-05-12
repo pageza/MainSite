@@ -1,7 +1,12 @@
 body {
-  background-image: url('editor.jpeg') ;
-  background-size: cover;
-  color: #ff841a;
+  /*background-image: url('abstract_green.jpg') ;*/
+  /*background-size: cover;*/
+  background-color: #4269C2;
+  color: #131A29;
+
+}
+a {
+  color: #131A29;
 }
 #mainPic {
   height: 250px;
@@ -10,11 +15,8 @@ body {
   margin-top: 10px;
 }
 
-.mybg {
+/*.mybg {
   background-color: rgba(26,89,255,.6);
   border-radius: 15px;
   padding: 10px;
-}
-.mybg h1 p {
-  #6bff3d
-}
+}*/
