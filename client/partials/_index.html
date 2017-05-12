@@ -10,8 +10,16 @@
       </p>
   </div>
 </div>
+<div class="row" ng-init="IC.index()">
+  <h3>Languages and I have worked with: {{IC}}</h3>
+  <div class="card" ng-repeat="language in IC.languages">
+    <h3>{{language.language}}</h3>
+    <p>{{language.description}}</p>
+    <p>{{language.use}}</p>
+  </div>
+</div>
 
-  <div class="mybg">
+  <div class="row">
     <h3>Languages and I have worked with:</h3>
     <table class="table ">
       <tr>

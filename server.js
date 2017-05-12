@@ -15,13 +15,13 @@ app.use(express.static(__dirname + '/bower_components'));
 //   next();
 // });
 
+// MONGODB //////////////////////
+require('./server/config/mongoose.js');
+/////////////////////////////
 // ROUTES //////////////////////
 require('./server/config/routes.js')(app);
 ///////////////////////////////
 
-// MONGODB //////////////////////
-// require('./server/config/mongoose.js');
-///////////////////////////////
 
 app.listen(port, function(){
   console.log(`Listening on ${port}`);
