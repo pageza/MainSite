@@ -1,4 +1,4 @@
-app.factory('LanguageFactory', function($http){
+App.factory('LanguageFactory', function($http){
   var factory = {}
 
   factory.index = function(callback){

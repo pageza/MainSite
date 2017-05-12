@@ -1,4 +1,5 @@
 App.controller('IndexController', function(LanguageFactory,$scope, moment){
+  console.log("hitting the index controller");
   var self = this;
   self.languages = [];
 
