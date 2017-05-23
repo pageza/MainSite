@@ -3,7 +3,8 @@ body {
   /*background-size: cover;*/
   background-color: #2E4272;
   color: #4269C2;
-
+  font-family: 'Audiowide', cursive;
+  font-family: 'Exo', sans-serif;
 }
 a {
   color: #4269C2;
@@ -11,7 +12,19 @@ a {
 #mainPic {
   height: 250px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 30px;
+}
+#videos {
+  font-family: 'Audiowide', cursive;
+
+}
+.row h3 {
+  font-family: 'Audiowide', cursive;
+
+}
+.card h3 {
+  font-family: 'Audiowide', cursive;
+
 }
 .card {
   background-color: #222F4E;
