@@ -1,7 +1,11 @@
 <div ng-controller="IndexController as IC" class="row">
-  <div class="col-sm-1"></div>
-  <div class="col-sm-3">
-    <img id="mainPic" class="img-rounded"src="../style/MainPortPic.jpg" alt="#">
+  <!-- <div class="col-sm-1"></div> -->
+  <div class="col-sm-4">
+    <!-- <img id="mainPic" class="img-rounded"src="../style/MainPortPic.jpg" alt="#"> -->
+    <video  width="400" controls autoplay>
+    <source src="../style/small_intro.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
   </div>
   <div class="col-sm-1"></div>
   <div class="col-sm-7 ">
@@ -12,60 +16,3 @@
       </p>
   </div>
 </div>
-<div class="row" ng-init="IC.index()" >
-  <h3>Languages and I have worked with: </h3>
-</div>
-<div class="row">
-  <div class="card col-md-3" ng-repeat="language in IC.languages">
-    <h3 class="card-title">{{language.language}}</h3>
-    <p class="card-text">{{language.description}}</p>
-    <p class="card-text">{{language.use}}</p>
-  </div>
-</div>
-
-
-  <!-- <div class="row">
-    <h3>Languages and I have worked with:</h3>
-    <table class="table ">
-      <tr>
-        <th>Language</th>
-        <th>Description</th>
-        <th>Use Case</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>JavaScript & libraries</td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>MongoDB</td>
-        <td>Stores your data</td>
-        <td>non-relational database</td>
-      </tr>
-      <tr>
-        <td>Angular</td>
-        <td>JS library for single page applications</td>
-        <td>Show everyting you have without leaving a page</td>
-      </tr>
-      <tr>
-        <td>Express and Node in particular</td>
-        <td>Express is the server application, and node runs it all</td>
-        <td>this is the E & N in MEAN</td>
-      </tr>
-      <tr>
-        <td>Ruby on Rails</td>
-        <td>A quick developement framework and language</td>
-        <td>Good for rapid developement of a prototype</td>
-      </tr>
-      <tr>
-        <td>Python w/ Flask & Django Frameworks</td>
-        <td>Webserver Frameworks in Python</td>
-        <td>Hosting webpages</td>
-      </tr>
-    </table>
-  </div> -->

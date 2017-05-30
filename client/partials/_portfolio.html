@@ -1,5 +1,5 @@
 <!-- <h1>Displaying the portofolio demos page</h1> -->
-<div class="row">
+<!-- <div class="row">
   <h2>These are a few examples of what I can create:</h2>
 </div>
 <div class="row">
@@ -27,5 +27,15 @@
   <div class="row">
     <p class="col-md-8">This will be a demo of an E-commerce site built using Ruby on Rails and making use of GEM packages for security and payment processing.</p>
     <a class="col-md-4" href="http://placehold.it"><img src="http://placehold.it/350x150"></a>
+  </div> -->
+  <div class="row" ng-init="IC.index()" >
+    <h3>Languages and I have worked with: </h3>
+  </div>
+  <div class="row">
+    <div class="card col-md-3" ng-repeat="language in IC.languages">
+      <h3 class="card-title">{{language.language}}</h3>
+      <p class="card-text">{{language.description}}</p>
+      <p class="card-text">{{language.use}}</p>
+    </div>
   </div>
 </div>
